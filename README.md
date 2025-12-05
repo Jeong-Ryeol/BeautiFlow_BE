@@ -34,6 +34,31 @@
 
 ---
 
+## 내가 구현한 기능 (정원렬)
+
+### 예약 관리 API
+- 날짜 기반 예약 리스트 조회 (페이징)
+- 월별 예약 리스트 조회 (페이징)
+- 예약 상세 조회
+- 예약 상태 변경 API
+
+### 고객 관리 API
+- 고객 상세 조회 / 정보 수정 / 삭제
+- 고객 그룹 목록 조회
+- 시술별 고객 조회
+- 디자이너별 고객 리스트 조회
+- 예약 상세 조회 시 고객 자동 등록 기능
+
+### 커스텀 그룹 시스템
+- 커스텀 그룹 CRUD API
+- 시스템 기본 그룹 자동 초기화 컴포넌트
+
+### 엔티티 설계
+- 디자이너-고객 관계 매핑 엔티티 (DesignerCustomer)
+- 복합키 클래스 (DesignerCustomerId)
+
+---
+
 ## 기술 스택
 - **Language/Framework**: Java 17, Spring Boot 3.x, Spring Security, Spring Data JPA
 - **Realtime**: STOMP over WebSocket, Redis Pub/Sub
@@ -46,4 +71,3 @@
 | Backend | Backend | Backend | Backend | Backend |
 |:--:|:--:|:--:|:--:|:--:|
 | <a href="https://github.com/dongjune8931"><img src="https://avatars.githubusercontent.com/u/164463609?v=4" width="120" height="120" /></a><br/><a href="https://github.com/dongjune8931">이동준</a> | <a href="https://github.com/ally010314"><img src="https://avatars.githubusercontent.com/u/177901876?v=4" width="120" height="120" /></a><br/><a href="https://github.com/ally010314">장수연</a> | <a href="https://github.com/Jeong-Ryeol"><img src="https://avatars.githubusercontent.com/u/188818480?v=4" width="120" height="120" /></a><br/><a href="https://github.com/Jeong-Ryeol">정원렬</a> | <a href="https://github.com/Mode1221"><img src="https://avatars.githubusercontent.com/u/81965868?v=4" width="120" height="120" /></a><br/><a href="https://github.com/Mode1221">정성훈</a> | <a href="https://github.com/bbandm"><img src="https://avatars.githubusercontent.com/u/134187969?v=4" width="120" height="120" /></a><br/><a href="https://github.com/bbandm">황지은</a> |
-
